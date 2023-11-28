@@ -1,0 +1,69 @@
+/* MoveableBox.css */
+
+.moveable-box-outer-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 5%;
+}
+
+.moveable-box-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.moveable-box {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #13c53a;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+}
+
+/* Boundary Top */
+.boundary-top {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: #87ceeb;
+  cursor: pointer;
+  top: -50px;
+}
+
+/* Boundary Bottom */
+.boundary-bottom {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: #87ceeb;
+  cursor: pointer;
+  bottom: -50px;
+}
+
+/* Boundary Left */
+.boundary-left {
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  background-color: #87ceeb;
+  cursor: pointer;
+  left: -50px;
+}
+
+/* Boundary Right */
+.boundary-right {
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  background-color: #87ceeb;
+  cursor: pointer;
+  right: -50px;
+}
