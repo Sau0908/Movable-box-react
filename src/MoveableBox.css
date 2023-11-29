@@ -1,4 +1,4 @@
-/* MoveableBox.css */
+
 
 .moveable-box-outer-container {
   position: relative;
@@ -28,7 +28,7 @@
   top: 0;
 }
 
-/* Boundary Top */
+
 .boundary-top {
   position: absolute;
   width: 100%;
@@ -38,7 +38,7 @@
   top: -50px;
 }
 
-/* Boundary Bottom */
+
 .boundary-bottom {
   position: absolute;
   width: 100%;
@@ -48,7 +48,7 @@
   bottom: -50px;
 }
 
-/* Boundary Left */
+
 .boundary-left {
   position: absolute;
   width: 50px;
@@ -58,7 +58,7 @@
   left: -50px;
 }
 
-/* Boundary Right */
+
 .boundary-right {
   position: absolute;
   width: 50px;
